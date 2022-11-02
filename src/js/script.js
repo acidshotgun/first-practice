@@ -18,5 +18,8 @@ const numberTwo = prompt('На сколько вы его оцените?');
 personalMovieDB.movies[oneFilm] = number;
 personalMovieDB.movies[twoFilm] = numberTwo;
 
+personalMovieDB.genres[0] = prompt('Какой жанр любишь?');
+personalMovieDB.genres[1] = prompt('Какой второй жанр любишь?');
+
 
 console.log(personalMovieDB);
