@@ -10,10 +10,10 @@ const personalMovieDB = {
     privat: false
 };
 
-const oneFilm = prompt('Один из последних просмотренных фильмов?');
-const number = prompt('На сколько вы его оцените?');
-const twoFilm = prompt('Один из последних просмотренных фильмов?');
-const numberTwo = prompt('На сколько вы его оцените?');
+const oneFilm = prompt('Один из последних просмотренных фильмов?'),
+    number = prompt('На сколько вы его оцените?'),
+    twoFilm = prompt('Один из последних просмотренных фильмов?'),
+    numberTwo = prompt('На сколько вы его оцените?');
 
 personalMovieDB.movies[oneFilm] = number;
 personalMovieDB.movies[twoFilm] = numberTwo;
